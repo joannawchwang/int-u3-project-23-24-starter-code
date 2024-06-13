@@ -12,15 +12,13 @@
 //  - Then fill in the blanks with the correct variables.
 
 
-// INSERT_VARIABLE.addEventListener('click', function(){
+INSERT_VARIABLE.addEventListener('click', function(){
 
-// });
+});
 
-// INSERT_VARIABLE.addEventListener('click', function(){
+INSERT_VARIABLE.addEventListener('click', function(){
 
-// });
+ });
 
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
+INSERT_VARIABLE.addEventListener('click', function(){
+});
