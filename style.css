@@ -1,13 +1,20 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-/* 
+
 .option-one-screen, 
 .option-two-screen, 
-.option-one-end, 
-.option-two-end  {
+.opt-end1, 
+.opt-end2,
+.option-one-one,
+.option-one-two,
+.option-one,
+.option-two,
+.continue-screen,
+.end1,
+.end2 {
    display:none;
 }
-*/
+
 
 
 /* Feel free to change any of the styling below!*/
@@ -17,6 +24,17 @@ body {
     padding: 0;
 }
 
+.buttons2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .title {
     color: darkgreen;
@@ -61,6 +79,10 @@ img{
     margin-bottom: 20px;
 }
 
+.end2 h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 /* Style the buttons container */
 .buttons {
     margin: 20px;
@@ -87,7 +109,10 @@ button:hover {
 .option-one-screen,
 .option-two-screen,
 .option-one-end,
-.option-two-end {
+.option-two-end,
+.continue-screen,
+.end1,
+.end2 {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -110,7 +135,8 @@ button:hover {
 .option-one-screen h2,
 .option-two-screen h2,
 .option-one-end h2,
-.option-two-end h2 {
+.option-two-end h2,
+.continue-screen h2{
     font-size: 20px;
     margin-bottom: 20px;
 }
